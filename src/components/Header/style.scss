@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  background: #020c10;
+  .header_container {
+    min-height: 90vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    //background: url('../../assets/bg3.jpg')no-repeat center center/cover;
+
+
+    .pic_holder {
+      //margin-top: 50px;
+      width: 100%;
+      padding: 5px;
+      height: 85vh;
+      overflow: hidden;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .heroTxt {
+      margin-top: 25%;
+      position: relative;
+      left: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      color: #fcfafa;
+      font-family: 'Dosis', sans-serif;
+      text-shadow: 0 0 5px #0a0a0a;
+      .name {
+        font-size: 60px;
+        letter-spacing: .2em;
+      }
+       .description {
+         margin-top: -30px;
+         font-family: Roboto,sans-serif;
+         font-style: italic;
+         font-size: 40px;
+         font-weight: 200;
+       }
+    }
+  }
+}
