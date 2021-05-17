@@ -18,11 +18,6 @@ const Header = () => {
                             <img src={heroImage} alt='ava'/>
                         </div>
                     </Grid>
-                    {/*<Grid item xs={12} md={8} sm={8} className='heroTxt'>*/}
-                    {/*    <h1 className='name'>ILYA YERESKO</h1>*/}
-                    {/*     <h2 className='description'>personal blog</h2>*/}
-                    {/*</Grid>*/}
-
                 </Grid>
             </div>
 
