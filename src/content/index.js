@@ -3,9 +3,9 @@ export const content = {
         logo: 'IY',
         links: [
             { text: 'Home', to: '/' },
-            { text: 'About', to: 'about' },
-            { text: 'Music', to: 'music' },
-            { text: 'Contact', to: 'contact' },
+            { text: 'About', to: '/about' },
+            { text: 'Music', to: '/music' },
+            { text: 'Contact', to: '/contact' },
         ],
     },
     // header: {
