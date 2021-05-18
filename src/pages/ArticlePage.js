@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import ArticleContent from './Article-content'
+import ArticleContent from './Article-content';
 import { Typography } from "@material-ui/core";
 const ArticlePage = ({ match }) => {
     const name = match.params.name

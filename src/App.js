@@ -14,11 +14,13 @@ function App() {
           <div className="App">
               <Router>
                   <Navigation/>
-                  <Switch>
+                  <div id="page-body">
+                  <Switch >
                       <Route path="/" component={ Homepage } exact />
                       <Route path="/about/" component={ About }  />
                       <Route path="/article/:name" component={ ArticlePage } />
                   </Switch>
+                  </div>
               </Router>
           </div>
 
