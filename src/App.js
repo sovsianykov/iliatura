@@ -4,7 +4,7 @@ import { BrowserRouter as Router  , Route,Switch   } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import About from "./pages/About";
 import ArticlePage from "./pages/ArticlePage";
-import ArticlesList from "./components/ArticlesList";
+
 
 
 
@@ -12,8 +12,14 @@ function App() {
   return (
 
           <div className="App">
-              <Navigation/>
-
+              <Router>
+                  <Navigation/>
+                  <Switch>
+                      <Route path="/" component={ Homepage } exact />
+                      <Route path="/about/" component={ About }  />
+                      <Route path="/article/:name" component={ ArticlePage } />
+                  </Switch>
+              </Router>
           </div>
 
 

@@ -1,19 +1,21 @@
 import React from 'react';
 import './styles.scss';
-import {Typography} from "@material-ui/core";
-const ArticlePage = () => {
+import ArticleContent from './Article-content'
+import { Typography } from "@material-ui/core";
+const ArticlePage = ({ match }) => {
+    const name = match.params.name
+    const article= ArticleContent.find(article =>article.name === name)
+    if (!article) return (<h1>Article do not exist!</h1>)
     return (
         <div className='container'>
             <Typography variant="h1">
-                This is an Article
+                {article.title}
             </Typography>
             <Typography variant='body1'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Asperiores aspernatur dolorum eos, facere iste iusto nam
-                optio quae qui veritatis! Aliquid, beatae dolor doloremque
-                dolores et iusto minima nam,
-                numquam obcaecati optio possimus quae quisquam rem repellat
-                rerum similique temporibus?
+                {article.content.map((paragraph,i) =>(
+                    <p key={i}>{paragraph}</p>
+                ) )}
+
             </Typography>
 
         </div>

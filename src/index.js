@@ -13,15 +13,7 @@ import Navigation from "./components/Navigation/Navigation";
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router>
-           <Navigation/>
-          <Switch>
-
-              <Route path="/" component={ Homepage } exact />
-              <Route path="/about/" component={ About } exact />
-              <Route path="/article/" component={ ArticlePage } exact />
-          </Switch>
-      </Router>
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
