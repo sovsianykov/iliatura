@@ -1,24 +1,24 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
+// import CardHeader from '@material-ui/core/CardHeader';
+// import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
+// import CardActions from '@material-ui/core/CardActions';
+// import Avatar from '@material-ui/core/Avatar';
+// import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 // import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+// import FavoriteIcon from '@material-ui/icons/Favorite';
+// import ShareIcon from '@material-ui/icons/Share';
+// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+// import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Link } from "react-router-dom";
-import img1 from '../../assets/archtopbg.JPG';
-import img2 from '../../assets/blog-icon.png';
-import img3 from '../../assets/Jazz-1-icon.png';
-import {MenuBook, NewReleases} from "@material-ui/icons";
+// import img1 from '../../assets/archtopbg.JPG';
+// import img2 from '../../assets/blog-icon.png';
+// import img3 from '../../assets/Jazz-1-icon.png';
+import {MenuBook} from "@material-ui/icons";
 
 
 const useStyles = makeStyles((theme) => ({
