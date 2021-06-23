@@ -29,7 +29,14 @@
         color: antiquewhite;
         padding: 10px;
         font-weight: 400;
+        border-bottom:  2px solid  transparent;
 
+        @media only screen and (max-width: 600px) {
+          width: 100%;
+          top: 300px;
+          right: 0;
+          border-bottom:  2px solid  #eee6b6;
+        }
         //background: rgba(21, 40, 45, 0.76);
         z-index: 3;
         .title  {
@@ -38,6 +45,9 @@
           text-align: center;
           font-size: 30px;
           letter-spacing: .3rem;
+          @media only screen and (max-width: 600px) {
+            font-size: 20px;
+          }
         }
         .sub-title {
           margin-top: -40px;
@@ -45,6 +55,10 @@
           text-align: center;
           font-size: 20px;
           letter-spacing: .2rem;
+          @media only screen and (max-width: 600px) {
+            font-size: 18px;
+            margin-top: -10px;
+          }
         }
       }
 
