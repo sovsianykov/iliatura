@@ -35,9 +35,7 @@ const Main = () => {
 
   return (
     <div className='mainCardListContainer'>
-        <h1>Articles list</h1>
       <Grid container justify="center" >
-
         {isLoaded
           ? articles.map((article, i) => (
               <Grid item xs={12} sm={3} md={3} key={i}>

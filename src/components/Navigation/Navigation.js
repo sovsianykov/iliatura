@@ -6,7 +6,9 @@ const Navigation = () => {
     return (
         <div className='nav'>
           <div className="nav_container">
-              <h2>{content.nav.logo}<span className='dot'/></h2>
+              <Link to ='/'  className='lnk'  >
+                  <h2>{content.nav.logo}<span className='dot'/></h2>
+              </Link>
               <Link  to='/new-article/' className='lnk-new-art'>new article</Link>
               <div>
                   {content.nav.links.map((link,i) =>(

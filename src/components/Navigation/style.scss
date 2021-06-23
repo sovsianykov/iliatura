@@ -2,10 +2,11 @@
   background: #020c10;
   width: 100%;
   position: fixed;
+  z-index: 3;
   top: 0;
   .nav_container {
     max-width: 1400px;
-    height: 10vh;
+   min-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
