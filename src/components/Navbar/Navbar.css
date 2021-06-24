@@ -103,6 +103,8 @@
   .nav-links:hover {
     /*background-color: #4d4d4e;*/
     border-radius: 0;
+    border-bottom: 4px solid  transparent;
+
   }
 
   .navbar-logo {
@@ -142,6 +144,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
+    border-bottom: 4px solid  transparent;
     /*color: #1888ff;*/
     transition: 250ms;
   }

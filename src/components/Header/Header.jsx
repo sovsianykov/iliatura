@@ -12,8 +12,8 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header_container'>
-                <Grid container >
-                    <Grid item xs={12} md={12} sm={12}>
+                <Grid container spacing={0} >
+                    <Grid item xs={12} md={12} sm={12} >
                         <div className="pic_holder">
                             <img src={ heroImage } alt='ava'/>
                             <div className="hero-text">

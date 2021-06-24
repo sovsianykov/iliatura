@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
         // backgroundColor :  "bisque",
         fontWeight : 500,
         color : "bisque",
-        padding : "10px"
+        padding : "10px 0"
         // fontSize : " 25px"
     },
     media: {
